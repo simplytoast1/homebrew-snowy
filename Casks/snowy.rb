@@ -1,21 +1,15 @@
 # Homebrew Cask formula for Snowy
 #
-# To install locally for testing:
-#   brew install --cask ./snowy.rb
+# Install with:
+#   brew tap simplytoast1/snowy
+#   brew install --cask snowy
 #
-# To submit to homebrew-cask:
-#   1. Fork https://github.com/Homebrew/homebrew-cask
-#   2. Add this file to Casks/s/snowy.rb
-#   3. Submit a pull request
-#
-# For a custom tap:
-#   1. Create repo: github.com/YOUR_USERNAME/homebrew-snowy
-#   2. Add this file to Casks/snowy.rb
-#   3. Users install with: brew tap YOUR_USERNAME/snowy && brew install --cask snowy
+# Or install directly:
+#   brew install --cask simplytoast1/snowy/snowy
 
 cask "snowy" do
-  version "1.0"
-  sha256 "PLACEHOLDER_SHA256_HASH"
+  version "1.1"
+  sha256 "7d1c37f492cc1cba00896c8032c145db1a6d2d6deb20a27bd42d7a1f09956e06"
 
   url "https://pingie.com/snowy/Snowy.zip"
   name "Snowy"

@@ -8,8 +8,8 @@
 #   brew install --cask simplytoast1/snowy/snowy
 
 cask "snowy" do
-  version "1.1"
-  sha256 "7d1c37f492cc1cba00896c8032c145db1a6d2d6deb20a27bd42d7a1f09956e06"
+  version "1.2"
+  sha256 "8593a31f32c6cd64ee4147ff76bec713d69cabe1f52974c3a6ee5403ba4a1ecb"
 
   url "https://pingie.com/snowy/Snowy.zip"
   name "Snowy"
